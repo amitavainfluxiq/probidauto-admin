@@ -1,0 +1,304 @@
+body{margin:0;padding:0; background: #fff;}
+*{margin:0;padding:0;}
+.clear{clear:both;}
+a{text-decoration:none;outline:none;}
+a, a:visited{text-decoration:none;}
+a:hover, a:focus{text-decoration:none;}
+a:focus{outline:none;outline:none;outline-offset:inherit;}
+.clear{ clear: both;}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+@font-face {
+    font-family: 'Montserrat_light';
+    src: url('../fonts/Montserrat-Light.woff2') format('woff2'),
+    url('../fonts/Montserrat-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MontserratSemiBold';
+    src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+    url('../fonts/Montserrat-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'MontserratBold';
+    src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+    url('../fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'MontserratRegular';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+    url('../fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'MontserratMedium';
+    src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+    url('../fonts/Montserrat-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'MontserratExtraBold';
+    src: url('../fonts/Montserrat-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Montserrat-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+
+
+.loderbody{width:100vw; height:100vh; display:table-cell; vertical-align:middle; text-align:center; background: #222222;}
+
+.loader{border:16px solid #fff;border-top:16px solid #fb4a32;border-radius:50%;width:120px;height:120px;animation:spin 2s linear infinite;margin:0 auto;}
+@keyframes spin{0%{transform:rotate(0deg);}100%{transform:rotate(360deg);}}
+
+
+.topblock{background: rgba(255,255,255,1)!important;
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%)!important;
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)))!important;
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%)!important;
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%)!important;
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%)!important;
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%)!important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 )!important; border: none!important; box-shadow: none!important; margin: 0!important; padding: 0px!important; border-radius: 0px!important;}
+
+.headerlogo{ width: 230px;  float: left; background: #222222!important; padding: 10px 2px;}
+
+.headerlogo img{ width: 90%; display: block; margin: 0 auto;}
+
+.topblock .dehazeicon {
+    color: #222222;
+    display:block;
+  /*  float: left;*/
+    margin: 24px 0 0 0px!important;
+    font-size: 30px; cursor: pointer;
+}
+
+.clear{ clear: both; overflow: hidden; background: none!important; border: none!important; box-shadow: none!important; margin: 0!important; padding: 0px!important; border-radius: 0px!important;}
+
+
+.footerblock{background: #222222!important; border: none!important; box-shadow: none!important; margin: 0!important; padding: 10px!important; border-radius: 0px!important;}
+
+.footerblock p{ display: block; margin: 0; padding: 0; text-align: center;   font-size: 14px; color: #fff;}
+
+.accountsettingbtn{   float: right;   font-size: 14px!important; color: #fff!important; margin: 22px 0 0 0!important;}
+
+.personicon {
+    border-radius: 100px; background:#fb4a32;
+    border: solid 1px #222222;
+    padding: 5px; color: #222222; color: #fff;
+}
+
+.accountsettingbtn span{ padding: 0 10px 0 0; color: #222222;  font-size: 14px;}
+
+.accountsettingmenu{margin-top: 10px;}
+
+.accountsettingmenu .mat-menu-content{  min-width:150px;   background: #2c3439; padding: 5px!important; }
+
+.accountsettingmenu .mat-menu-content button{ height: 35px; line-height: 35px; text-align: center; padding: 0px; font-size: 16px!important; color: #fff!important; border-bottom: solid 1px #111;}
+.accountsettingmenu .mat-menu-content button:last-of-type{ border: none;}
+
+.accountsettingmenu .mat-menu-content button:hover{     background-color: #fb4a32; color: #fff!important;}
+
+.accountsettingmenu .mat-menu-content:before {
+    content: ' \26F0';
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 38px;
+    color: #2c3439;
+}
+
+.dashboard_body{ display:flex !important; background: #fff!important; border: none!important; box-shadow: none!important; margin: 0!important; padding: 0px!important; border-radius: 0px!important; width: 100%; justify-content: space-between; }
+
+.dashboard_left{background: #2c3439 url("../images/leftbody_bg.jpg")  center top!important; border: none!important; box-shadow: none!important; margin: 0!important; padding: 0px!important; border-radius: 0px!important; width: 80px; display: inline-flex !important;}
+
+.dashboard_wrapper{ padding: 15px; vertical-align: top; display: inline-flex !important; width: 100%;}
+
+.dashboard_left button{ font-size: 0px!important;  border-top: solid 1px #3f4f5c; border-bottom: solid 1px #000; padding: 0;transition: all 700ms!important; height: 80px!important; line-height: 80px!important; }
+
+.dashboard_left hr{ height: 1px; background: #3d4348; border: none;}
+
+/*.dashboard_left button:hover{ background: #dc4430!important;  }
+.dashboard_left button.active{ background: #dc4430;  }
+
+.dashboard_left button.active span{background:  url("../images/dashboard_menuhover2.png") no-repeat right top!important ; }
+
+.dashboard_left button span{ display: block;}
+
+.dashboard_left button:hover span{ background:  url("../images/dashboard_menuhover2.png") no-repeat right top!important ;  padding-right: 16px;}*/
+
+
+.dashboard_left {
+    position: relative!important;
+    transition: all 700ms!important;
+    margin-left: 0px!important;
+    width: 0;
+
+    z-index: 99!important;
+}
+
+.dashboard_left app-left{
+    margin-left: 0px!important;
+    width: 0;
+    transition: all 700ms!important;
+}
+
+
+.dashboard_body input[type=checkbox]{
+    display: none;
+    -webkit-appearance: none;
+}
+
+/*.dashboard_left app-left button{padding: 0 0px 0 25px;}*/
+
+.dashboard_body input[type=checkbox]:checked ~ #menu{
+    width: 80px;
+   height: auto;
+    -webkit-animation: fadeIn 700ms ease;
+    -moz-animation: fadeIn 700ms ease;
+    animation: fadeIn 700ms ease;
+    position: absolute;
+    top:0;
+    left: 0;
+    margin-left: 0px!important;
+}
+
+.dashboard_body input[type=checkbox]:checked ~ #menu app-left{
+    margin-left: 0px!important;
+    width: 80px;
+    -webkit-animation: fadeIn 700ms ease;
+    -moz-animation: fadeIn 700ms ease;
+    animation: fadeIn 700ms ease;
+}
+
+
+
+
+.dashboard_body input[type=checkbox]:checked ~ #menu button{ -webkit-animation: fadeIn 700ms ease;
+    -moz-animation: fadeIn 700ms ease;
+    animation: fadeIn 700ms ease;}
+
+
+
+
+.topblock .mat-list{ display: inline-block; float: left; margin: 22px 0 0 10px; padding: 0px;}
+.topblock .mat-list .mat-list-item{ display: inline-block; float: left; width: auto; margin: 0px; padding: 0px; height: auto;}
+
+.topblock .mat-list .mat-list-item .mat-list-item-content{ margin: 0px; padding: 0px;}
+
+.topblock .mat-list .mat-list-item .mat-list-item-content button{     margin: 0px 5px;
+    padding: 0px 15px;
+    height: 32px;
+    line-height: 32px;  font-size: 14px!important; color: #111!important;}
+
+.topmenudevider{    display: block;
+ width: 30px; padding-right: 15px;
+    height: 78px; float: left;
+    margin: 0 15px 0 15px; -webkit-box-shadow: 11px 0px 10px -8px rgba(163,153,163,1);
+    -moz-box-shadow: 11px 0px 10px -8px rgba(163,153,163,1);
+    box-shadow: 11px 0px 10px -8px rgba(163,153,163,1);}
+
+.topblock .mat-list .mat-list-item .mat-list-item-content button:hover{color: #fff!important; background: #dc4430!important;}
+.topblock .mat-list .mat-list-item .mat-list-item-content button.active{ color: #fff!important; background: #dc4430!important;}
+
+.dashboard_left button{ background-size: 40px!important;   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%); position: relative;     overflow: inherit;}
+
+.dashboard_left button:hover{ background-size: 40px!important;   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);}
+
+.dashboard_left button span{ display: block;}
+.dashboard_left button span:hover{ background:  url("../images/dashboard_menuhover2.png") no-repeat right bottom!important; background-size: 25px!important;}
+
+.dashboard_left button:nth-of-type(1){ background: url("../images/admin_link1_hover.png") no-repeat center center; }
+.dashboard_left button:nth-of-type(1):hover{ background: url("../images/admin_link1.png") no-repeat center center; }
+
+.dashboard_left button:nth-of-type(2){ background: url("../images/admin_link2_hover.png") no-repeat center center; }
+.dashboard_left button:nth-of-type(2):hover{ background: url("../images/admin_link2.png") no-repeat center center; }
+
+
+.dashboard_left button:nth-of-type(3){ background: url("../images/admin_link3_hover.png") no-repeat center center; }
+.dashboard_left button:nth-of-type(3):hover{ background: url("../images/admin_link3.png") no-repeat center center; }
+
+.dashboard_left button:nth-of-type(4){ background: url("../images/admin_link4_hover.png") no-repeat center center; }
+.dashboard_left button:nth-of-type(4):hover{ background: url("../images/admin_link4.png") no-repeat center center; }
+
+
+.dashboard_left button:nth-of-type(5){ background: url("../images/admin_link5_hover.png") no-repeat center center; }
+.dashboard_left button:nth-of-type(5):hover{ background: url("../images/admin_link5.png") no-repeat center center; }
+
+
+.dashboard_left button:nth-of-type(6){ background: url("../images/admin_link6_hover.png") no-repeat center center; }
+.dashboard_left button:nth-of-type(6):hover{ background: url("../images/admin_link6.png") no-repeat center center; }
+
+
+.dashboard_left button label {
+    display: block;
+    width: 0px;
+    position: absolute;
+    left: 80px;
+    top: -1px;
+
+    background: #fb4a32!important;
+    color: #fff;
+    font-size: 16px;
+    padding: 0px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+
+    padding:13px 0px; margin-left: 0px;  cursor: pointer;
+
+ z-index: 0!important;
+    opacity: 0.7;
+    transform: scale(0.85);
+    transition: all 700ms;
+}
+
+
+
+.dashboard_left button:hover label{ width: 180px; padding:13px 15px;  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);  opacity: 1;
+    transform: scale(1); margin-left: 0px;
+}
+
+
+.clearmenu{ display: none!important;}
+
+.topmenudevider2{ display: none;}
+
+.topblock input[type=checkbox]{
+    display: none;
+    -webkit-appearance: none;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+

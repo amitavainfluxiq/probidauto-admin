@@ -1,0 +1,55 @@
+<mat-card class="topblock">
+
+
+  <span class="headerlogo"><img src="../../assets/images/logo.png" alt="" ></span>
+
+
+
+  <label class="topmenudevider"><label for="show-menu" > <i class="material-icons dehazeicon"  >
+    dehaze
+  </i>
+  </label></label>
+
+
+  <label class="topmenudevider2"><label for="show-menu2" > <i class="material-icons dehazeicon"  >
+    dehaze
+  </i>
+  </label></label>
+
+
+
+
+
+
+  <button class="accountsettingbtn" mat-button [matMenuTriggerFor]="menu"><span>User Name</span><i class="material-icons personicon">
+    person
+  </i>   <i class="material-icons">
+    keyboard_arrow_down
+  </i></button>
+
+
+  <mat-menu #menu="matMenu" class="accountsettingmenu">
+
+    <button mat-menu-item>My Account</button>
+    <button mat-menu-item>Logout</button>
+  </mat-menu>
+  <mat-card class="clearmenu"></mat-card>
+
+  <input type="checkbox" id="show-menu2" role="button">
+  <mat-list role="list" id="menu2">
+    <mat-list-item role="listitem"> <button mat-menu-item class="topmenu active">Home</button></mat-list-item>
+    <mat-list-item role="listitem"><button mat-menu-item class="topmenu">Customers</button></mat-list-item>
+    <mat-list-item role="listitem"><button mat-menu-item class="topmenu">Inventory</button></mat-list-item>
+    <mat-list-item role="listitem"><button mat-menu-item class="topmenu">Communication</button></mat-list-item>
+    <mat-list-item role="listitem"><button mat-menu-item class="topmenu">Social Advo</button></mat-list-item>
+    <mat-list-item role="listitem"><button mat-menu-item class="topmenu">Manager’s Calendar</button></mat-list-item>
+
+
+    <mat-card class="clear"></mat-card>
+  </mat-list>
+
+  <mat-card class="clear"></mat-card>
+
+</mat-card>
+
+
